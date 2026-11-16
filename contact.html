@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Halbe College, Dodamarg</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <section class="page-banner"><div class="container">
+    <h1>Contact Us</h1>
+    <div class="crumbs"><a href="index.html">Home</a> / Contact</div>
+  </div></section>
+
+  <section class="section alt"><div class="container">
+    <div class="contact-cards">
+      <div class="c-card"><div class="tile-icon">📍</div><h4>Address</h4><p>Post Kasai, Tal. Dodamarg,<br>Dist. Sindhudurg, Maharashtra – 416 512</p></div>
+      <div class="c-card"><div class="tile-icon">📞</div><h4>Phone</h4><p>+91 00000 00000<br>Mon–Sat, 10:00 AM – 5:00 PM</p></div>
+      <div class="c-card"><div class="tile-icon">✉️</div><h4>Email</h4><p>nss_dodamarg@rediffmail.com</p></div>
+    </div>
+
+    <div class="about-grid" style="align-items:stretch">
+      <div class="block" id="enquiry" style="margin:0">
+        <span class="eyebrow">Get in Touch</span>
+        <h2 class="section-title">Admission Enquiry</h2>
+        <form data-demo>
+          <div class="form-grid">
+            <div><label for="n">Full Name</label><input id="n" required></div>
+            <div><label for="p">Mobile Number</label><input id="p" type="tel" required></div>
+            <div><label for="e">Email</label><input id="e" type="email"></div>
+            <div><label for="c">Programme</label>
+              <select id="c"><option>B.A.</option><option>B.Com.</option><option>B.Sc. Hospitality Studies</option><option>Other</option></select></div>
+            <div class="full"><label for="m">Message</label><textarea id="m" rows="4"></textarea></div>
+            <div class="full"><button class="btn btn-navy" type="submit">Send Enquiry →</button></div>
+          </div>
+          <div class="form-msg">✓ Thank you! Our office will contact you soon.</div>
+        </form>
+      </div>
+      <iframe class="map" title="College location"
+        src="https://maps.google.com/maps?q=Halbe%20College%20Dodamarg&t=&z=13&ie=UTF8&iwloc=&output=embed"
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="block" id="feedback" style="margin-top:40px">
+      <span class="eyebrow">We Value Your Opinion</span>
+      <h2 class="section-title">Feedback</h2>
+      <form data-demo>
+        <div class="form-grid">
+          <div><label for="fn">Name</label><input id="fn" required></div>
+          <div><label for="fr">You are a</label>
+            <select id="fr"><option>Student</option><option>Parent</option><option>Alumni</option><option>Teacher</option><option>Employer</option></select></div>
+          <div class="full"><label for="fm">Your Feedback</label><textarea id="fm" rows="4" required></textarea></div>
+          <div class="full"><button class="btn btn-navy" type="submit">Submit Feedback →</button></div>
+        </div>
+        <div class="form-msg">✓ Thank you for your feedback!</div>
+      </form>
+    </div>
+  </div></section>
+
+  <div id="site-footer"></div>
+  <script src="js/main.js"></script>
+</body>
+</html>
